@@ -10,7 +10,7 @@ function headerComponent(componentContainer) {
         />
     </a>
     <img
-        src="../imgs temporal/menu-mobile.png"
+        src="./imgs temporal/menu-mobile.png"
         alt="menu de opciones"
         class="header__menu-mobile"
     />

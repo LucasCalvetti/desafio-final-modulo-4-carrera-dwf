@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <script defer src="../components/header/header.js"></script>
+        <link rel="stylesheet" href="../components/header/header.css" />
+        <script defer src="../components/footer/footer.js"></script>
+        <link rel="stylesheet" href="../components/footer/footer.css" />
+        <script defer src="../functions/cards.js"></script>
+        <script defer src="./portfolio.js"></script>
+        <link rel="stylesheet" href="./portfolio-y-servicios.css" />
+        <title>Portfolio - Lucas</title>
+    </head>
+    <body>
+        <section class="portfolio-sect">
+            <div class="portfolio-sect__title-desktop-cont">
+                <div class="header-container"></div>
+                <h1 class="portfolio-sect__title">Portfolio</h1>
+            </div>
+            <div class="portfolio-sect__cont">
+                <div class="portfolio-sect__cards-container">
+                    <template id="template">
+                        <a href="" class="card__url">
+                            <div class="card__container">
+                                <img
+                                    src="../imgs temporal/card-img.png"
+                                    alt="imagen de portfolio"
+                                    class="card__card-img"
+                                />
+                                <div class="card__text-container">
+                                    <h3 class="card__title">
+                                        Desarrollo de webs
+                                    </h3>
+                                    <p class="card__description">
+                                        Algo interesante sobre mi Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing
+                                        elit. Nulla dui quam, sollicitudin at
+                                        enim id, sodales vehicula.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </template>
+                </div>
+            </div>
+        </section>
+        <div class="footer-section-container"></div>
+    </body>
+</html>

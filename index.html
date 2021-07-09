@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <script defer src="./functions/cards.js"></script>
+        <script defer src="./components/header/header.js"></script>
+        <link rel="stylesheet" href="./components/header/header.css" />
+        <script defer src="./components/contacto/contacto.js"></script>
+        <link rel="stylesheet" href="./components/contacto/contacto.css" />
+        <script defer src="./components/footer/footer.js"></script>
+        <link rel="stylesheet" href="./components/footer/footer.css" />
+        <script defer src="./index.js"></script>
+        <link rel="stylesheet" href="./index.css" />
+        <title>Lucas Webpage</title>
+    </head>
+    <body>
+        <section class="main-section">
+            <div class="header-container"></div>
+            <div class="main-section__home-cont">
+                <h1 class="main-section__home-title">Hola</h1>
+                <h2 class="main-section__home-subtitle">Soy Lucas</h2>
+            </div>
+        </section>
+        <section class="about-me">
+            <div class="about-me__title-text-img-cont">
+                <div class="about-me__text-cont">
+                    <h2 class="about-me__title">Soy Lucas</h2>
+                    <p class="about-me__text">
+                        Algo interesante sobre mi Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Nulla dui quam,
+                        sollicitudin at enim id, sodales vehicula velit. Aenean
+                        lobortis posuere tristique. Phasellus placerat arcu
+                        elementum nisi ultrices cursus. Etiam sit amet aliquet
+                        lacus. Integer ut iaculis augue, sit amet tincidunt ex.
+                        In eleifend justo et sodales semper. Mauris nec tortor
+                        lectus. Curabitur nec ultricies dolor.
+                    </p>
+                </div>
+                <img
+                    src="./imgs temporal/happy-guy.png"
+                    alt="foto de hombre contento"
+                    class="about-me__img"
+                />
+            </div>
+        </section>
+        <section class="service-section">
+            <div class="service-section__title-and-services">
+                <h2 class="service-section__title">Mis servicios</h2>
+                <div class="services">
+                    <template id="services__template">
+                        <div class="services__service-container">
+                            <img
+                                src="./imgs temporal/coding.svg"
+                                alt="computadora"
+                                class="services__computer-img"
+                            />
+                            <h3 class="services__subtitle">Hago cosas</h3>
+                            <p class="services__description">
+                                Algo interesante sobre mi Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit. Nulla dui
+                                quam, sollicitudin at enim id, sodales vehicula
+                                velit. Aenean lobortis posuere tristique.
+                            </p>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </section>
+        <div class="contact-section-container" id="contact"></div>
+        <div class="footer-section-container"></div>
+    </body>
+</html>

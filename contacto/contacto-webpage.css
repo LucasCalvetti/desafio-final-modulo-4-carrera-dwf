@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.contact-section-container {
+    background-color: #000000;
+}
+@media (min-width: 900px) {
+    .contact-section-container {
+        background: linear-gradient(
+            195.17deg,
+            #000000 19.35%,
+            rgba(102, 13, 13, 0.8) 68.73%
+        );
+    }
+}
+.contact-section {
+    background-color: inherit;
+}
+
+@media (min-width: 900px) {
+    .contact-section {
+        height: 718px;
+    }
+}
+
+.contact__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: right;
+    letter-spacing: -1px;
+}
+@media (min-width: 900px) {
+    .contact__send-button {
+        background-color: #ffd953;
+        border: 2px solid #000000;
+        -webkit-text-stroke: 0.5px #fff;
+        color: #000000;
+    }
+}

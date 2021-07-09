@@ -1,0 +1,102 @@
+header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+@media (min-width: 900px) {
+    header {
+        height: 110px;
+        padding-bottom: 20px;
+    }
+}
+
+.header__logo {
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+}
+@media (min-width: 900px) {
+    .header__logo {
+        width: 240px;
+        margin-top: 50px;
+    }
+}
+
+.header__menu-mobile {
+    height: auto;
+    width: 44px;
+    margin: 20px 29px 12px 29px;
+}
+@media (min-width: 900px) {
+    .header__menu-mobile {
+        display: none;
+    }
+}
+.ventana-menu-mobile {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 80px;
+    left: 100px;
+    background-color: black;
+    color: #fff;
+}
+@media (min-width: 900px) {
+    .ventana-menu-mobile {
+        display: none;
+    }
+}
+.ventana-menu-mobile__link-container {
+    display: grid;
+    margin-top: 50px;
+    height: 70%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.ventana-menu-mobile__link,
+.ventana-menu-mobile__link-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6vmax;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}
+.header__menu-desktop-cont {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    .header__menu-desktop-cont {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto auto;
+        gap: 50px;
+        margin-right: 113px;
+        margin-top: 50px;
+    }
+}
+
+.header__menu-desktop-item {
+    display: none;
+}
+@media (min-width: 900px) {
+    .header__menu-desktop-item,
+    .header__menu-desktop-text {
+        display: flex;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        -webkit-text-stroke: 1px #fff;
+        color: #000;
+        text-decoration: none;
+    }
+}

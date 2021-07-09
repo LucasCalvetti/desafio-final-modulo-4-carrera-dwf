@@ -2,7 +2,7 @@ function headerComponent(componentContainer) {
     const componentEl = document.createElement("div");
     componentEl.innerHTML = `
     <header class="header">
-    <a href="../index.html">
+    <a href="./index.html">
         <img
             src="./imgs temporal/logo.png"
             alt="logo"
@@ -16,17 +16,17 @@ function headerComponent(componentContainer) {
     />
     <div class="ventana-menu-mobile" style="display: none">
         <div class="ventana-menu-mobile__link-container">
-            <a href="../portfolio-y-servicios/portfolio.html" class="ventana-menu-mobile__link"
+            <a href="./portfolio-y-servicios/portfolio.html" class="ventana-menu-mobile__link"
                 ><h3 class="ventana-menu-mobile__link-text">
                     Portfolio
                 </h3></a
             >
-            <a href="../portfolio-y-servicios/servicios.html" class="ventana-menu-mobile__link"
+            <a href="./portfolio-y-servicios/servicios.html" class="ventana-menu-mobile__link"
                 ><h3 class="ventana-menu-mobile__link-text">
                     Servicios
                 </h3></a
             >
-            <a href="../contacto/contacto.html" class="ventana-menu-mobile__link"
+            <a href="./contacto/contacto.html" class="ventana-menu-mobile__link"
                 ><h3 class="ventana-menu-mobile__link-text">
                     Contacto
                 </h3></a
@@ -34,13 +34,13 @@ function headerComponent(componentContainer) {
         </div>
     </div>
     <div class="header__menu-desktop-cont">
-        <a href="../portfolio-y-servicios/portfolio.html" class="header__menu-desktop-text">
+        <a href="./portfolio-y-servicios/portfolio.html" class="header__menu-desktop-text">
             <h3 class="header__menu-desktop-item">Portfolio</h3>
         </a>
-        <a href="../portfolio-y-servicios/servicios.html" class="header__menu-desktop-text">
+        <a href="./portfolio-y-servicios/servicios.html" class="header__menu-desktop-text">
             <h3 class="header__menu-desktop-item">Servicios</h3>
         </a>
-        <a href="../contacto/contacto.html" class="header__menu-desktop-text">
+        <a href="./contacto/contacto.html" class="header__menu-desktop-text">
             <h3 class="header__menu-desktop-item">Contacto</h3>
         </a>
     </div>

@@ -4,9 +4,9 @@ function footerComponent(componentContainer) {
         <section class="footer">
         <div class="footer__cont">
             <div class="footer__logo-cont">
-                <a href="../index.html">
+                <a href="./index.html">
                     <img
-                        src="../../imgs temporal/logo.png"
+                        src="./imgs temporal/logo.png"
                         alt="logo"
                         class="footer__logo"
                     />
@@ -16,7 +16,7 @@ function footerComponent(componentContainer) {
             <div class="footer__social-media-cont">
                 <a href="https://www.instagram.com/lucas_calvetti/">
                     <img class="footer__social-media-logo"
-                        src="../../imgs temporal/instagram.png"
+                        src="./imgs temporal/instagram.png"
                         alt="logo de instagram"
                     />
                 </a>
@@ -26,12 +26,12 @@ function footerComponent(componentContainer) {
                     >Instagram</a
                 >
                 <img class="footer__social-media-logo"
-                    src="../../imgs temporal/linkedin.png"
+                    src="./imgs temporal/linkedin.png"
                     alt="logo de linkedin"
                 />
                 <span class="footer__social-media-text">Linkedin</span>
                 <img class="footer__social-media-logo"
-                    src="../../imgs temporal/github.png"
+                    src="./imgs temporal/github.png"
                     alt="logo de github"
                 />
                 <span class="footer__social-media-text">Github</span>

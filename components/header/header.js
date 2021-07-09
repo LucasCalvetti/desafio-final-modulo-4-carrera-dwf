@@ -4,13 +4,13 @@ function headerComponent(componentContainer) {
     <header class="header">
     <a href="../index.html">
         <img
-            src="../../imgs temporal/logo.png"
+            src="./imgs temporal/logo.png"
             alt="logo"
             class="header__logo"
         />
     </a>
     <img
-        src="../../imgs temporal/menu-mobile.png"
+        src="../imgs temporal/menu-mobile.png"
         alt="menu de opciones"
         class="header__menu-mobile"
     />
